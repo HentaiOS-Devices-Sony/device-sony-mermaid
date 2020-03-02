@@ -12,11 +12,14 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-PRODUCT_MAKEFILES := $(LOCAL_DIR)/aosp_i3213.mk \
-                     $(LOCAL_DIR)/aosp_i4213.mk
+PRODUCT_MAKEFILES := \
+	$(LOCAL_DIR)/hentai_mermaid_RoW.mk \
+	$(LOCAL_DIR)/hentai_mermaid_DSDS.mk
 
 COMMON_LUNCH_CHOICES += \
-    aosp_i3213-eng \
-    aosp_i3213-userdebug \
-    aosp_i4213-eng \
-    aosp_i4213-userdebug
+    hentai_mermaid_RoW-eng \
+    hentai_mermaid_RoW-userdebug \
+    hentai_mermaid_RoW-user \
+    hentai_mermaid_DSDS-eng \
+    hentai_mermaid_DSDS-userdebug \
+    hentai_mermaid_DSDS-user
