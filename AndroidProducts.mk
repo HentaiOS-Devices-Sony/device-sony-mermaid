@@ -14,12 +14,20 @@
 
 PRODUCT_MAKEFILES := \
 	$(LOCAL_DIR)/hentai_mermaid_RoW.mk \
-	$(LOCAL_DIR)/hentai_mermaid_DSDS.mk
-
+	$(LOCAL_DIR)/hentai_mermaid_DSDS.mk \
+	$(LOCAL_DIR)/hentai_mermaid_RoW_Go.mk \
+	$(LOCAL_DIR)/hentai_mermaid_DSDS_Go.mk \
+	
 COMMON_LUNCH_CHOICES += \
     hentai_mermaid_RoW-eng \
     hentai_mermaid_RoW-userdebug \
     hentai_mermaid_RoW-user \
     hentai_mermaid_DSDS-eng \
     hentai_mermaid_DSDS-userdebug \
-    hentai_mermaid_DSDS-user
+    hentai_mermaid_DSDS-user \
+    hentai_mermaid_RoW_Go-eng \
+    hentai_mermaid_RoW_Go-userdebug \
+    hentai_mermaid_RoW_Go-user \
+    hentai_mermaid_DSDS_Go-eng \
+    hentai_mermaid_DSDS_Go-userdebug \
+    hentai_mermaid_DSDS_Go-user \
