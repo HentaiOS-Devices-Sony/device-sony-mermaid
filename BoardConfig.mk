@@ -19,6 +19,10 @@ ifneq (,$(filter %hentai_mermaid_RoW,$(TARGET_PRODUCT)))
 TARGET_BOOTLOADER_BOARD_NAME := I3213
 else ifneq (,$(filter %hentai_mermaid_DSDS,$(TARGET_PRODUCT)))
 TARGET_BOOTLOADER_BOARD_NAME := I4213
+else ifneq (,$(filter %hentai_mermaid_RoW_Go,$(TARGET_PRODUCT)))
+TARGET_BOOTLOADER_BOARD_NAME := I3213
+else ifneq (,$(filter %hentai_mermaid_DSDS_Go,$(TARGET_PRODUCT)))
+TARGET_BOOTLOADER_BOARD_NAME := I4213
 else
 TARGET_BOOTLOADER_BOARD_NAME := I3213
 $(warning Unrecognized value for TARGET_PRODUCT: "$(TARGET_PRODUCT)", using default value: "$(TARGET_BOOTLOADER_BOARD_NAME)")
